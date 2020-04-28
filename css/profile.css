@@ -1,5 +1,8 @@
 body{
 	margin: 0;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 20px;
+	line-height: 40px;
 }
 
 header{
@@ -7,18 +10,76 @@ header{
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	margin: auto auto;
 }
 
 header h1{
 	color: white;
+	font-size: 50px;
+	margin: 20px 0;
 }
 
 header h2{
 	color: white;
+	font-size: 30px;
+	margin: 20px 0;
 }
 
 header img{
-	border-radius: 160px;
-	width: 300px;
-	border: 10px solid lightyellow;
+	border-radius: 103px;
+	width: 200px;
+	border: 6px solid lightyellow;
+}
+
+main{
+	max-width: 1500px;
+	margin: 50px auto;
+	padding: 0 100px;
+}
+
+h1{
+	font-size: 50px;
+	margin: 40px 0 10px;
+	color: lightseagreen
+}
+
+main img{
+	width: 50px;
+}
+
+a{
+	color: maroon;
+}
+
+a:hover{
+	color: white;
+	background-color: gold;
+}
+
+footer{
+	background-color: tan;
+	text-align: center;
+	margin: auto auto;
+}
+
+footer a{
+	opacity: .5;
+	color: black;
+}
+
+footer a:hover{
+	background-color: transparent;
+}
+
+.header img {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
 }
